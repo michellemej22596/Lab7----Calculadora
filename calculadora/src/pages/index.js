@@ -1,4 +1,4 @@
-import Calculator from '../components/Calculator/Calculator';
+import Calculator from '../components/Calculator';
 
 const HomePage = () => {
     return (
@@ -9,4 +9,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-s
