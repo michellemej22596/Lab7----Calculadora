@@ -90,7 +90,7 @@ const Calculator = () => {
 
     return (
         <div className={styles.calculator}>
-            <div className={styles.display}>{displayValue}</div>
+            <div className={styles.display} data-testid="display">{displayValue}</div>
             <div className={styles.keyboard}>
                 {[...Array(10).keys()].reverse().map((number) =>
                     <button key={number} onClick={() => handleNumberClick(number.toString())}>{number}</button>
